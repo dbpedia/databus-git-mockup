@@ -1,58 +1,49 @@
 {
   "@context": {
     "@language": "en",
-    "@base": "https://databus.dbpedia.org/",
+    "databus": "https://databus.dbpedia.org/",
+    "version" : {
+      "@id": "http://dataid.dbpedia.org/core#version",
+      "@type" : "@id"
+    },
     "label": "http://www.w3.org/2000/01/rdf-schema#label",
     "comment": "http://www.w3.org/2000/01/rdf-schema#comment",
     "description": "http://purl.org/dc/terms/description",
-    "license": {
-        @id: "http://purl.org/dc/terms/description",
-        @type : "@id"
-      },
-    "distribution": "http://www.w3.org/ns/dcat#distribution"
+    "distribution": "http://www.w3.org/ns/dcat#distribution",
+    "license" : {
+        "@id": "http://purl.org/dc/terms/license",
+        "@type" : "@id"
+      }
   },
   
   "@graph": [
     {
-      "@id": "jj-author/grouptest",
+      "@id": "databus:jj-author/grouptest",
       "label": "grouptest",
       "comment": "12345678901234567890123456789012345678901234567890",
       "description": "TODO is this necessary????"
     },
   
-        {
-          "@id": "jj-author/grouptest/test/2020.12.01#Dataset",
-          "label": "testversion",
-          "comment": "12345678901234567890123456789012345678901234567890",
-          "description": "12345678901234567890123456789012345678901234567890",
-          "distribution" : [
-                {
-                  "format": "ttl",
-                  "compression": "gz",
-                  "downloadURL": "https://data.dnb.de/opendata//authorities-koerperschaft_lds.ttl.gz",
-                  "contentVariants": [
-                    {
-                      "key": "type",
-                      "value": "koe"
-                    }
-                  ]
-                },
-                {
-                  "format": "rdf",
-                  "compression": "gz",
-                  "uri": "https://data.dnb.de/opendata//authorities-kongress_lds.rdf.gz",
-                  "contentVariants": [
-                    {
-                      "key": "type",
-                      "value": "kon"
-                    }
-                  ]
-                },
-                {
-                  "format": "txt",
-                  "compression": "none",
-                  "uri": "https://data.dnb.de/opendata//A_ReadMe.txt",
-                  "contentVariants": []
-                }]
-        }
+   {
+     
+     "version" : "databus:jj-author/grouptest/test/2020.12.01",
+     "label": "testversion",
+     "comment": "12345678901234567890123456789012345678901234567890",
+     "license" : "aa",
+     "description": "12345678901234567890123456789012345678901234567890",
+     "distribution" : [{
+       
+         "format": "ttl",
+         "compression": "gz",
+         "downloadURL": "https://data.dnb.de/opendata//authorities-koerperschaft_lds.ttl.gz",
+         "contentVariants": [
+           {
+             "key": "type",
+             "value": "koe"
+           }
+         ]
+
+     }]
+     
+   }]
 }
