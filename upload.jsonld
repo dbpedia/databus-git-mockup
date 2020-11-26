@@ -4,45 +4,32 @@
     "@base": "https://databus.dbpedia.org/",
     "label": "http://www.w3.org/2000/01/rdf-schema#label",
     "comment": "http://www.w3.org/2000/01/rdf-schema#comment",
-     "comment": "http://www.w3.org/2000/01/rdf-schema#comment",
-   
-    "image": {
-      "@id": "http://schema.org/image",
-      ↑ This means that 'image' is shorthand for 'http://schema.org/image'
-      "@type": "@id"
-      ↑ This means that a string value associated with 'image'
-        should be interpreted as an identifier that is an IRI
-    },
-    "homepage": {
-      "@id": "http://schema.org/url",
-      ↑ This means that 'homepage' is shorthand for 'http://schema.org/url'
-      "@type": "@id"
-      ↑ This means that a string value associated with 'homepage'
-        should be interpreted as an identifier that is an IRI 
-    }
+    "description": "http://purl.org/dc/terms/description",
+    "license": {
+        @id: "http://purl.org/dc/terms/description",
+        @type : "@id"
+      },
+    "distribution": " http://www.w3.org/ns/dcat#distribution"
   }
   
   "groups": [
     {
-      "@id": "grouptest",
+      "@id": "jj-author/grouptest",
       "label": "grouptest",
       "comment": "12345678901234567890123456789012345678901234567890",
       "description": "TODO is this necessary????"
     }
-   "artifacts": [
+   "versions": [
         {
-          "id": "test",
-          "label": "tasdf",
-          "abstract": "12345678901234567890123456789012345678901234567890",
+          "@id": "jj-author/grouptest/test/2020.12.01#Dataset",
+          "label": "testversion",
+          "comment": "12345678901234567890123456789012345678901234567890",
           "description": "12345678901234567890123456789012345678901234567890",
-          "version": {
-            "id": "2020.12.01",
-            "dataset": {
-              "distributions": [
+          "distribution" : [
                 {
                   "format": "ttl",
                   "compression": "gz",
-                  "uri": "https://data.dnb.de/opendata//authorities-koerperschaft_lds.ttl.gz",
+                  "downloadURL": "https://data.dnb.de/opendata//authorities-koerperschaft_lds.ttl.gz",
                   "contentVariants": [
                     {
                       "key": "type",
@@ -58,28 +45,6 @@
                     {
                       "key": "type",
                       "value": "kon"
-                    }
-                  ]
-                },
-                {
-                  "format": "rdf",
-                  "compression": "gz",
-                  "uri": "https://data.dnb.de/opendata//authorities-person_lds.rdf.gz",
-                  "contentVariants": [
-                    {
-                      "key": "type",
-                      "value": "per"
-                    }
-                  ]
-                },
-                {
-                  "format": "jsonld",
-                  "compression": "gz",
-                  "uri": "https://data.dnb.de/opendata//authorities-werk_lds.jsonld.gz",
-                  "contentVariants": [
-                    {
-                      "key": "type",
-                      "value": "wer"
                     }
                   ]
                 },
