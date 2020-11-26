@@ -1,7 +1,6 @@
 {
   "@context": {
     "@language": "en",
-    "databus": "https://databus.dbpedia.org/",
     "version" : {
       "@id": "http://dataid.dbpedia.org/core#version",
       "@type" : "@id"
@@ -11,14 +10,13 @@
     "description": "http://purl.org/dc/terms/description",
     "distribution": "http://www.w3.org/ns/dcat#distribution",
     "license" : {
-        "@id": "http://purl.org/dc/terms/license",
-        "@type" : "@id"
+        "@id": "http://purl.org/dc/terms/license"
       }
   },
   
   "@graph": [
     {
-      "@id": "databus:jj-author/grouptest",
+      "@id": "http://databus.dbpedia.org/jj-author/grouptest",
       "label": "grouptest",
       "comment": "12345678901234567890123456789012345678901234567890",
       "description": "TODO is this necessary????"
@@ -26,10 +24,10 @@
   
    {
      
-     "version" : "databus:jj-author/grouptest/test/2020.12.01",
+     "version" : "http://databus.dbpedia.org/jj-author/grouptest/test/2020.12.01",
      "label": "testversion",
      "comment": "12345678901234567890123456789012345678901234567890",
-     "license" : "aa",
+     "license" : {"@id":"http://aa.org"},
      "description": "12345678901234567890123456789012345678901234567890",
      "distribution" : [{
        
