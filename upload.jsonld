@@ -1,6 +1,7 @@
 {
   "@context": {
-    "@language": "en"
+    "@language": "en",
+    "@base": "https://databus.dbpedia.org/",
     "label": "http://www.w3.org/2000/01/rdf-schema#label",
     "comment": "http://www.w3.org/2000/01/rdf-schema#comment",
      "comment": "http://www.w3.org/2000/01/rdf-schema#comment",
@@ -23,11 +24,12 @@
   
   "groups": [
     {
-      "@id": "https://dbpedia.org/jj-author/grouptest",
+      "@id": "grouptest",
       "label": "grouptest",
       "comment": "12345678901234567890123456789012345678901234567890",
-      "description": "TODO is this necessary????",
-      "artifacts": [
+      "description": "TODO is this necessary????"
+    }
+   "artifacts": [
         {
           "id": "test",
           "label": "tasdf",
