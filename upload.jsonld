@@ -18,7 +18,8 @@
       "label": "grouptest",
       "comment": "12345678901234567890123456789012345678901234567890",
       "description": "TODO is this necessary????"
-    }
+    }],
+  
    "versions": [
         {
           "@id": "jj-author/grouptest/test/2020.12.01#Dataset",
