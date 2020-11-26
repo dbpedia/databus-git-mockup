@@ -9,18 +9,17 @@
         @id: "http://purl.org/dc/terms/description",
         @type : "@id"
       },
-    "distribution": " http://www.w3.org/ns/dcat#distribution"
+    "distribution": "http://www.w3.org/ns/dcat#distribution"
   },
   
-  "groups": [
+  "@graph": [
     {
       "@id": "jj-author/grouptest",
       "label": "grouptest",
       "comment": "12345678901234567890123456789012345678901234567890",
       "description": "TODO is this necessary????"
-    }],
+    },
   
-   "versions": [
         {
           "@id": "jj-author/grouptest/test/2020.12.01#Dataset",
           "label": "testversion",
@@ -55,5 +54,5 @@
                   "uri": "https://data.dnb.de/opendata//A_ReadMe.txt",
                   "contentVariants": []
                 }]
-            }]
+        }
 }
