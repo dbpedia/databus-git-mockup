@@ -1,10 +1,32 @@
 {
+  "@context": {
+    "@language": "en"
+    "label": "http://www.w3.org/2000/01/rdf-schema#label",
+    "comment": "http://www.w3.org/2000/01/rdf-schema#comment",
+     "comment": "http://www.w3.org/2000/01/rdf-schema#comment",
+   
+    "image": {
+      "@id": "http://schema.org/image",
+      ↑ This means that 'image' is shorthand for 'http://schema.org/image'
+      "@type": "@id"
+      ↑ This means that a string value associated with 'image'
+        should be interpreted as an identifier that is an IRI
+    },
+    "homepage": {
+      "@id": "http://schema.org/url",
+      ↑ This means that 'homepage' is shorthand for 'http://schema.org/url'
+      "@type": "@id"
+      ↑ This means that a string value associated with 'homepage'
+        should be interpreted as an identifier that is an IRI 
+    }
+  }
+  
   "groups": [
     {
-      "id": "general",
-      "label": "general",
-      "abstract": "12345678901234567890123456789012345678901234567890",
-      "description": "12345678901234567890123456789012345678901234567890",
+      "@id": "https://dbpedia.org/jj-author/grouptest",
+      "label": "grouptest",
+      "comment": "12345678901234567890123456789012345678901234567890",
+      "description": "TODO is this necessary????",
       "artifacts": [
         {
           "id": "test",
