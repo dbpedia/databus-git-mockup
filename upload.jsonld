@@ -10,7 +10,7 @@
         @type : "@id"
       },
     "distribution": " http://www.w3.org/ns/dcat#distribution"
-  }
+  },
   
   "groups": [
     {
@@ -53,12 +53,6 @@
                   "compression": "none",
                   "uri": "https://data.dnb.de/opendata//A_ReadMe.txt",
                   "contentVariants": []
-                }
-              ]
-            }
-          }
-        }
-      ]
-    }
-  ]
+                }]
+            }]
 }
