@@ -1,6 +1,7 @@
 {
   "@context": {
     "@language": "en",
+    "@vocab" : "http://dataid.dbpedia.org/core#",
     "version" : {
       "@id": "http://dataid.dbpedia.org/core#version",
       "@type" : "@id"
@@ -9,9 +10,10 @@
     "comment": "http://www.w3.org/2000/01/rdf-schema#comment",
     "description": "http://purl.org/dc/terms/description",
     "distribution": "http://www.w3.org/ns/dcat#distribution",
-    "license" : {
-        "@id": "http://purl.org/dc/terms/license"
-      }
+    "license" : "http://purl.org/dc/terms/license",
+    "downloadURL":"http://www.w3.org/ns/dcat#downloadURL",
+    
+    "format" : "formatExtension"
   },
   
   "@graph": [
