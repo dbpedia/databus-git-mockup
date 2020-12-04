@@ -24,6 +24,10 @@
       "@id": "dct:license",
       "@type": "@id"
     },
+    "description": {
+      "@id": "dct:description",
+      "@type": "@id"
+    },
     
     
     
