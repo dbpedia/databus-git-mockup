@@ -56,3 +56,4 @@ curl -X DELETE http://databus.dbpedia.org/kuckuck/nest/eier/2020.10.10
 curl -X GET -H "Accept: text/turtle" http://databus.dbpedia.org/kuckuck/nest/eier/2020.10.10
 
 ```
+Behaviour: Named Graph should be "http://databus.dbpedia.org/kuckuck/nest/eier/2020.10.10"
