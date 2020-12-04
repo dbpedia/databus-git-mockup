@@ -74,12 +74,10 @@
     
     "tag": {
       "@id": "dataid-cv:tag",
-      "@type": "xsd:string",
-      "rdfs:subPropertyOf": "dataid:contentVariant"
+      "@type": "xsd:string"
     },
     "lang": {
       "@id": "dataid-cv:lang",
-      "@type": "xsd:string",
-      "rdfs:subPropertyOf": "dataid:contentVariant"
+      "@type": "xsd:string"
     }
  }
