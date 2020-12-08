@@ -1,0 +1,76 @@
+
+
+######
+#     #   ##   #####   ##   #####  #    #  ####
+#     #  #  #    #    #  #  #    # #    # #
+#     # #    #   #   #    # #####  #    #  ####
+#     # ######   #   ###### #    # #    #      #
+#     # #    #   #   #    # #    # #    # #    #
+######  #    #   #   #    # #####   ####   ####
+
+# Plugin version 1.3-SNAPSHOT - https://github.com/dbpedia/databus-maven-plugin
+
+
+@prefix databus: <https://databus.dbpedia.org/> .
+@prefix dataid-mt: <http://dataid.dbpedia.org/ns/mt#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix dataid: <http://dataid.dbpedia.org/ns/core#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dataid-cv: <http://dataid.dbpedia.org/ns/cv#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix dataid-debug: <http://dataid.dbpedia.org/ns/debug.ttl#> .
+
+
+
+
+<https://databus.dbpedia.org/data/databus/databus-data/2020.12.06/dataid.ttl#Dataset>
+        a                       dataid:Dataset ;
+# label or title, server expands
+        rdfs:label              "Database dump of databus.dbpedia.org/repo/sparql"@en ;
+        dct:title               "Database dump of databus.dbpedia.org/repo/sparql"@en ;
+
+        
+        rdfs:comment            "Export of the dataid metadata from the triplestore"@en ;
+        dct:description         "long desc" ;
+
+#server expand        dataid:account          databus:dbpedia ;
+#server expand        dataid:artifact         <https://databus.dbpedia.org/dbpedia/databus/databus-data> ;
+#server expand        dataid:group            <https://databus.dbpedia.org/dbpedia/databus> ;
+#server expand        dct:hasVersion          "2020.12.06" ;
+
+        dataid:version          <https://databus.dbpedia.org/dbpedia/databus/databus-data/2020.12.06> ;
+        dct:issued              "2020-12-06T00:00:00Z"^^xsd:dateTime ;
+        dct:license             <http://purl.oclc.org/NET/rdflicense/cc-0> ;
+        
+
+# TODO one or both       
+        dct:publisher           <https://webid.dbpedia.org/webid.ttl#this> ;        
+        dataid:associatedAgent  <https://webid.dbpedia.org/webid.ttl#this> ;
+        
+
+        dcat:distribution       <https://databus.dbpedia.org/data/databus/databus-data/2020.12.06/dataid.ttl#databus-data.nt.bz2> .
+
+
+
+
+<https://databus.dbpedia.org/data/databus/databus-data/2020.12.06/dataid.ttl#databus-data.nt.bz2>
+        a                        dataid:Part ;
+        dataid:formatExtension   "nt" ;
+        dataid:compression       "bz2" ;
+
+# TODO add filename?
+
+        dct:modified             "2020-12-05T23:01:38Z"^^xsd:dateTime ;
+        dcat:byteSize            "145726880"^^xsd:decimal ;
+        dataid:sha256sum         "49b0f2dd5bb6c1dcdbbb935dbc4463218d570b4b4499da081e07a2d52c60ceab" ;
+        dataid:signature         "dg6U+QmLt/WJvcb2yQApkAD5vanzNE1fBxvCwB87+G/XgsOpeDm3jDAEnCA43uWyw3A+sVKXfOvYFGfh7LPrJRIcZTlaqpXZ9UU1TmunCFrtvh+TZ+T0eMwOxzWfQ7eLAdZJlV5IDMNZZwNi9u6ukiF8ciSJjpRSHWDYD11NT79Q9sKMmVFosfoo8GEa9aM43BzqNDew/aoRMW6xlvAGKO4rbmbbONroeYLSeTApakF5SwgEQ8pcjvAZf7UoNNTlOFjklUiJIoVlhaUiuatptxa/aGK499Ja/sQqordPgJfOIa+pRhAXIBYZvXRGPxpi8lwHCU8oXSzSArArWIPyMg==" ;
+
+#server expand        dataid:isDistributionOf  <https://databus.dbpedia.org/data/databus/databus-data/2020.12.06/dataid.ttl#Dataset> ;
+
+#rewritten        
+        dcat:downloadURL         <https://databus.dbpedia.org/data/databus/databus-data/2020.12.06/databus-data.nt.bz2> .
+
+
