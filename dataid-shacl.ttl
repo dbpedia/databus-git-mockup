@@ -20,7 +20,7 @@
     sh:targetClass dataid:Group ;
     sh:and (<#en-title> <#other-title>) ;
     sh:and (<#en-abstract> <#other-abstract>) ;
-    sh:and (<#en-description> <#other-violation>) .
+    sh:and (<#en-description> <#other-description>) .
     
 
 # SHARED (label, title, abstract, description)
