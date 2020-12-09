@@ -35,7 +35,7 @@
         dct:abstract            "Export of the dataid metadata from the triplestore"@en ;
 
 # TODO markdown datatype
-        dct:description         "long desc"^^markdown ;
+        dct:description         "long desc"^^xsd:string;
         dct:issued              "2020-12-06T00:00:00Z"^^xsd:dateTime ;
         dct:license             <http://purl.oclc.org/NET/rdflicense/cc-0> ;
         dct:publisher           <https://webid.dbpedia.org/webid.ttl#this> ;        
