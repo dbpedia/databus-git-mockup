@@ -28,26 +28,24 @@
 
 <https://databus.dbpedia.org/data/databus/databus-data/2020.12.06/dataid.ttl#Dataset>
         a                       dataid:Dataset ;
-# label or title, server expands
-        rdfs:label              "Database dump of databus.dbpedia.org/repo/sparql"@en ;
-        dct:title               "Database dump of databus.dbpedia.org/repo/sparql"@en ;
-
         
-        rdfs:comment            "Export of the dataid metadata from the triplestore"@en ;
-        dct:description         "long desc"@en ;
+#server expand       rdfs:label              "label"@en;
+        
+        dct:title               "Database dump of databus.dbpedia.org/repo/sparql"@en ;
+        dct:abstract            "Export of the dataid metadata from the triplestore"@en ;
+
+# TODO markdown datatype
+        dct:description         "long desc"^^markdown ;
+        dct:issued              "2020-12-06T00:00:00Z"^^xsd:dateTime ;
+        dct:license             <http://purl.oclc.org/NET/rdflicense/cc-0> ;
+        dct:publisher           <https://webid.dbpedia.org/webid.ttl#this> ;        
+
 
 #server expand        dataid:account          databus:dbpedia ;
 #server expand        dataid:artifact         <https://databus.dbpedia.org/dbpedia/databus/databus-data> ;
 #server expand        dataid:group            <https://databus.dbpedia.org/dbpedia/databus> ;
 #server expand        dct:hasVersion          "2020.12.06"^^xsd:string ;
-
-        dataid:version          <https://databus.dbpedia.org/dbpedia/databus/databus-data/2020.12.06> ;
-        dct:issued              "2020-12-06T00:00:00Z"^^xsd:dateTime ;
-        dct:license             <http://purl.oclc.org/NET/rdflicense/cc-0> ;
-        
-
-# TODO one or both       
-        dct:publisher           <https://webid.dbpedia.org/webid.ttl#this> ;        
+        dataid:version          <https://databus.dbpedia.org/dbpedia/databus/databus-data/2020.12.06> ;       
         dataid:associatedAgent  <https://webid.dbpedia.org/webid.ttl#this> ;
         
 
