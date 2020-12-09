@@ -13,8 +13,8 @@
       "@id": "rdfs:label",
       "@type": "xsd:string"
     },
-    "comment": {
-      "@id": "rdfs:comment",
+    "abstract": {
+      "@id": "dct:abstract",
       "@type": "xsd:string"
     },
     

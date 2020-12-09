@@ -3,6 +3,6 @@
 	"@id": "http://databus.dbpedia.org/kuckuck/nest",
 	"@type": "dataid:Group",
 	"label": "label",
-	"comment": "comment Lorem ipsum dolor sit",
+	"abstract": "comment Lorem ipsum dolor sit",
 	"description": "description"
 }
