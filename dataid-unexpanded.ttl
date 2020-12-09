@@ -46,7 +46,7 @@
 #server expand        dataid:group            <https://databus.dbpedia.org/dbpedia/databus> ;
 #server expand        dct:hasVersion          "2020.12.06"^^xsd:string ;
         dataid:version          <https://databus.dbpedia.org/dbpedia/databus/databus-data/2020.12.06> ;       
-        dataid:associatedAgent  <https://webid.dbpedia.org/webid.ttl#this> ;
+# server expand        dataid:associatedAgent  <https://webid.dbpedia.org/webid.ttl#this> ;
         
 
         dcat:distribution       <https://databus.dbpedia.org/data/databus/databus-data/2020.12.06/dataid.ttl#databus-data.nt.bz2> .
