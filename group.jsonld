@@ -2,7 +2,7 @@
 	"@context" : "https://raw.githubusercontent.com/dbpedia/databus-git-mockup/main/context.jsonld",
 	"@id": "http://databus.dbpedia.org/kuckuck/nest",
 	"@type": "dataid:Group",
-	"label": "label",
+	"title": "label",
 	"abstract": "comment Lorem ipsum dolor sit",
 	"description": "description"
 }
