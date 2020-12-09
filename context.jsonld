@@ -13,6 +13,10 @@
       "@id": "rdfs:label",
       "@type": "xsd:string"
     },
+    "title": {
+      "@id": "dct:title",
+      "@type": "xsd:string"
+    },
     "abstract": {
       "@id": "dct:abstract",
       "@type": "xsd:string"
@@ -26,7 +30,7 @@
     },
     "description": {
       "@id": "dct:description",
-      "@type": "@id"
+      "@type": "xsd:string"
     },
     
     
