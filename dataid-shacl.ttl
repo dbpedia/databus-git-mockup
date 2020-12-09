@@ -17,7 +17,7 @@
 <#dataid-group-test>   
     a sh:NodeShape ;
     sh:targetClass dataid:Group ;
-    sh:and (<#en-label> <#other-label>) ;
+    sh:and (<#en-title> <#other-title>) ;
     sh:and (<#en-abstract> <#other-abstract>) ;
     sh:and (<#en-description> <#other-violation>) .
     
