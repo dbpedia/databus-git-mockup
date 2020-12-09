@@ -10,8 +10,7 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     
     "label": {
-      "@id": "rdfs:label",
-      "@type": "rdf:langString"
+      "@id": "rdfs:label"
     },
     "title": {
       "@id": "dct:title",
