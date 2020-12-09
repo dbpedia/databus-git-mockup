@@ -216,13 +216,12 @@
 #   dataid:sha256sum         "49b0f2dd5bb6c1dcdbbb935dbc4463218d570b4b4499da081e07a2d52c60ceab"^^xsd:string ;
     a sh:PropertyShape ;
     sh:severity sh:Violation ;
-    sh:message "Required property dataid:sha256sum MUST occur exactly once AND have xsd:string as value AND match pattern ^[A-Fa-f0-9]{64}$"@en ;
+    sh:message "Required property dataid:sha256sum MUST occur exactly once AND have xsd:string as value AND match pattern ^[a-f0-9]{64}$"@en ;
     sh:path dataid:sha256sum;
     sh:minCount 1 ;
     sh:maxCount 1 ;
-    sh:nodeKind xsd:string ;
-    # TODO pattern does not seem to work
-    sh:pattern "^[A-Fa-f0-9]{64}$" .
+    sh:datatype xsd:string ;
+    sh:pattern "^[a-f0-9]{64}$" .
 
 <#signature-violation>
 #   dataid:signature         "dg6U+QmLt/WJvcb2yQApkAD5vanzNE1fBxvCwB87+G/XgsOpeDm3jDAEnCA43uWyw3A+sVKXfOvYFGfh7LPrJRIcZTlaqpXZ9UU1TmunCFrtvh+TZ+T0eMwOxzWfQ7eLAdZJlV5IDMNZZwNi9u6ukiF8ciSJjpRSHWDYD11NT79Q9sKMmVFosfoo8GEa9aM43BzqNDew/aoRMW6xlvAGKO4rbmbbONroeYLSeTApakF5SwgEQ8pcjvAZf7UoNNTlOFjklUiJIoVlhaUiuatptxa/aGK499Ja/sQqordPgJfOIa+pRhAXIBYZvXRGPxpi8lwHCU8oXSzSArArWIPyMg=="^^xsd:string ;
