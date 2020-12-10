@@ -3,32 +3,31 @@
     "@base" : null,
     "@language": "en",
     "dataid": "http://dataid.dbpedia.org/ns/core#",
-    "dataid-cv": "http://dataid.dbpedia.org/ns/cv#",
     "dcv": "http://dataid.dbpedia.org/ns/cv#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "dct": "http://purl.org/dc/terms/",
     "dcat": "http://www.w3.org/ns/dcat#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     
-    "label": {
-      "@id": "rdfs:label"
-    },
+    
     "title": {
       "@id": "dct:title"
     },
     "abstract": {
       "@id": "dct:abstract"
     },
-    
-    
-    
+    "description": {
+      "@id": "dct:description"
+    },
     "license": {
       "@id": "dct:license",
       "@type": "@id"
     },
-    "description": {
-      "@id": "dct:description"
+    "publisher": {
+      "@id": "dct:publisher",
+      "@type": "@id"
     },
+        
         
     
     "distribution": {
@@ -39,27 +38,13 @@
       "@id": "dcat:downloadURL",
       "@type": "@id"
     },
-    "hasVersion": {
-      "@id": "dct:hasVersion",
-      "@type": "xsd:string"
-    },
-    
-    
-    
     "byteSize": {
       "@id": "dcat:byteSize",
       "@type": "xsd:decimal"
     },
+
     "version": {
       "@id": "dataid:version",
-      "@type": "@id"
-    },
-    "artifact": {
-      "@id": "dataid:artifact",
-      "@type": "@id"
-    },
-    "group": {
-      "@id": "dataid:group",
       "@type": "@id"
     },
     "format": {
@@ -73,16 +58,8 @@
     "sha256sum": {
       "@id": "dataid:sha256sum",
       "@type": "xsd:string"
-    },
-    
-    
-    "tag": {
-      "@id": "dataid-cv:tag",
-      "@type": "xsd:string"
-    },
-    "lang": {
-      "@id": "dataid-cv:lang",
-      "@type": "xsd:string"
     }
+    
+    
  }
 }
