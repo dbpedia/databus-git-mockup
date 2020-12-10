@@ -7,7 +7,7 @@
     "abstract":            "One line and one sentence max explanation of the dataset." ,
 	"description":         "long and verbose documentation text using markdown syntax is going here" ,
 	"issued":              "2020-12-06T00:00:00Z" ,
-	"license":            "http://purl.oclc.org/NET/rdflicense/cc-0" ,
+	"license":             "http://purl.oclc.org/NET/rdflicense/cc-0" ,
 	"publisher":           "https://webid.dbpedia.org/webid.ttl#this" ,      
 
 	"version":            "http://databus.dbpedia.org/kuckuck/nest/eier/2020.10.10" ,
@@ -15,7 +15,7 @@
 	"distribution": 
 	[
 		{
-			"@id": "https://data.dnb.de/opendata//authorities-geografikum_lds.ttl.gz",
+			"@TODOID": "??",
 			"@type": "dataid:Part",
 			
 			"formatExtension": "ttl",

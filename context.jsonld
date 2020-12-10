@@ -1,7 +1,6 @@
 {
   "@context": {
     "@base" : null,
-    "@language": "en",
     "dataid": "http://dataid.dbpedia.org/ns/core#",
     "dcv": "http://dataid.dbpedia.org/ns/cv#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
@@ -11,7 +10,9 @@
     
     
     "title": {
-      "@id": "dct:title"
+      "@id": "dct:title",
+      "@language": "en"
+
     },
     "abstract": {
       "@id": "dct:abstract"
@@ -68,7 +69,7 @@
       "@type": "xsd:string"
     },
     "signature": {
-      "@id": "dataid:formatExtension",
+      "@id": "dataid:signature",
       "@type": "xsd:string"
     }
     
