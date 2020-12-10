@@ -1,0 +1,5 @@
+why @id for distrib?
+separate element for cvar for string mapping and common prefix
+multilanguage title etc.
+
+homegenize values for example dataid.tll and dataid.json to check context
