@@ -2,22 +2,22 @@
 	"@context": "https://raw.githubusercontent.com/dbpedia/databus-git-mockup/main/context.jsonld",
 	"@type": "dataid:Dataset",
 	"TODOID": "??",
+	
+	"title"               "Short and expressive title of the dataset" ,
+        "abstract"            "One line and one sentence max explanation of the dataset." ,
+	"description"         "long and verbose documentation text using markdown syntax is going here" ,
+	
+	"issued"              "2020-12-06T00:00:00Z" ,
+	"license"             "http://purl.oclc.org/NET/rdflicense/cc-0" ,
+	"publisher"           "https://webid.dbpedia.org/webid.ttl#this" ,      
 
-	"account": "http://databus.dbpedia.org/kuckuck",
-	"group": "http://databus.dbpedia.org/kuckuck/nest",
-	"artifact": "http://databus.dbpedia.org/kuckuck/nest/eier",
-	"version": "http://databus.dbpedia.org/kuckuck/nest/eier/2020.10.10",
+	"version":            "http://databus.dbpedia.org/kuckuck/nest/eier/2020.10.10" ,
 
-	"hasVersion": "2020.12.01",
-	"label": "label Lorem ipsum",
-	"comment": "comment Lorem ipsum",
-	"license": "license",
-	"description": "desc Lorem ipsum",
 	"distribution": 
 	[
 		{
 			"@id": "https://data.dnb.de/opendata//authorities-geografikum_lds.ttl.gz",
-			"@type": "dataid:SingleFile",
+			"@type": "dataid:Part",
 			"format": "ttl",
 			"compression": "gz",
 			"downloadURL": "https://data.dnb.de/opendata//authorities-geografikum_lds.ttl.gz",
