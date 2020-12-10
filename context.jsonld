@@ -27,7 +27,7 @@
       "@type": "@id"
     },
     "description": {
-      "@id": "dct:description",
+      "@id": "dct:description"
     },
         
     
