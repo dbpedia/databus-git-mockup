@@ -1,5 +1,5 @@
 {
-	"@context" : "https://raw.githubusercontent.com/dbpedia/databus-git-mockup/main/context.jsonld",
+	"@context" : "https://raw.githubusercontent.com/dbpedia/databus-git-mockup/main/dev/context.jsonld",
 	"@id": "http://databus.dbpedia.org/kuckuck/nest",
 	"@type": "dataid:Group",
 	"title": "label",
