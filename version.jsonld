@@ -4,9 +4,8 @@
 	"TODOID": "??",
 	
 	"title":               "Short and expressive title of the dataset" ,
-        "abstract":            "One line and one sentence max explanation of the dataset." ,
+    "abstract":            "One line and one sentence max explanation of the dataset." ,
 	"description":         "long and verbose documentation text using markdown syntax is going here" ,
-	
 	"issued":              "2020-12-06T00:00:00Z" ,
 	"license":            "http://purl.oclc.org/NET/rdflicense/cc-0" ,
 	"publisher":           "https://webid.dbpedia.org/webid.ttl#this" ,      
@@ -18,14 +17,18 @@
 		{
 			"@id": "https://data.dnb.de/opendata//authorities-geografikum_lds.ttl.gz",
 			"@type": "dataid:Part",
+			
 			"formatExtension": "ttl",
 			"compression": "gz",
+			"sha256sum": "1be509fb64371dcf5fc7df334964753da4f2d33ba2d86b8e10150dbf64beef27",
+			"signature": "optional signature",
+			
 			"modified": "2020-12-05T23:01:38Z",
+			
 			"downloadURL": "https://data.dnb.de/opendata//authorities-geografikum_lds.ttl.gz",
 			"byteSize": 34154314,
-			"sha256sum": "1be509fb64371dcf5fc7df334964753da4f2d33ba2d86b8e10150dbf64beef27",
-			"singature": "optional signature",
-			"dcv:tag": "",
+			
+			"dcv:tag": "some",
 			"dcv:lang": "de"
 		}
 	]

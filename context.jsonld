@@ -19,6 +19,14 @@
     "description": {
       "@id": "dct:description"
     },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:dateTime"
+    }, 
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:dateTime"
+    },
     "license": {
       "@id": "dct:license",
       "@type": "@id"
@@ -57,6 +65,10 @@
     },
     "sha256sum": {
       "@id": "dataid:sha256sum",
+      "@type": "xsd:string"
+    },
+    "signature": {
+      "@id": "dataid:formatExtension",
       "@type": "xsd:string"
     }
     
