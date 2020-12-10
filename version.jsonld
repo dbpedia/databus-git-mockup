@@ -18,24 +18,15 @@
 		{
 			"@id": "https://data.dnb.de/opendata//authorities-geografikum_lds.ttl.gz",
 			"@type": "dataid:Part",
-			"format": "ttl",
+			"formatExtension": "ttl",
 			"compression": "gz",
+			"modified": "2020-12-05T23:01:38Z",
 			"downloadURL": "https://data.dnb.de/opendata//authorities-geografikum_lds.ttl.gz",
 			"byteSize": 34154314,
 			"sha256sum": "1be509fb64371dcf5fc7df334964753da4f2d33ba2d86b8e10150dbf64beef27",
-			"tag": "",
-			"lang": "de"
-		},
-		{
-			"@id": "https://data.dnb.de/opendata//authorities-geografikum_lds_20201013.ttl.gz",
-			"@type": "dataid:SingleFile",
-			"format": "ttl",
-			"compression": "gz",
-			"downloadURL": "https://data.dnb.de/opendata//authorities-geografikum_lds_20201013.ttl.gz",
-			"byteSize": 34154314,
-			"sha256sum": "1be509fb64371dcf5fc7df334964753da4f2d33ba2d86b8e10150dbf64beef27",
-			"tag": "nice",
-			"lang": "de"
+			"singature": "optional signature",
+			"dcv:tag": "",
+			"dcv:lang": "de"
 		}
 	]
 }
