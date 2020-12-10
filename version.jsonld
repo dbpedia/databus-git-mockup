@@ -3,13 +3,13 @@
 	"@type": "dataid:Dataset",
 	"TODOID": "??",
 	
-	"title"               "Short and expressive title of the dataset" ,
-        "abstract"            "One line and one sentence max explanation of the dataset." ,
-	"description"         "long and verbose documentation text using markdown syntax is going here" ,
+	"title":               "Short and expressive title of the dataset" ,
+        "abstract":            "One line and one sentence max explanation of the dataset." ,
+	"description":         "long and verbose documentation text using markdown syntax is going here" ,
 	
-	"issued"              "2020-12-06T00:00:00Z" ,
-	"license"             "http://purl.oclc.org/NET/rdflicense/cc-0" ,
-	"publisher"           "https://webid.dbpedia.org/webid.ttl#this" ,      
+	"issued":              "2020-12-06T00:00:00Z" ,
+	"license":            "http://purl.oclc.org/NET/rdflicense/cc-0" ,
+	"publisher":           "https://webid.dbpedia.org/webid.ttl#this" ,      
 
 	"version":            "http://databus.dbpedia.org/kuckuck/nest/eier/2020.10.10" ,
 
