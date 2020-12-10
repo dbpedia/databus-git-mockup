@@ -13,12 +13,10 @@
       "@id": "rdfs:label"
     },
     "title": {
-      "@id": "dct:title",
-      "@type": "rdf:langString"
+      "@id": "dct:title"
     },
     "abstract": {
-      "@id": "dct:abstract",
-      "@type": "rdf:langString"
+      "@id": "dct:abstract"
     },
     
     
@@ -29,10 +27,8 @@
     },
     "description": {
       "@id": "dct:description",
-      "@type": "rdf:langString"
     },
-    
-    
+        
     
     "distribution": {
       "@id": "dcat:distribution",
