@@ -8,11 +8,9 @@
     "dcat": "http://www.w3.org/ns/dcat#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     
-    
     "title": {
       "@id": "dct:title",
       "@language": "en"
-
     },
     "abstract": {
       "@id": "dct:abstract",
@@ -53,6 +51,7 @@
       "@id": "dcat:byteSize",
       "@type": "xsd:decimal"
     },
+    
 
     "version": {
       "@id": "dataid:version",
