@@ -136,14 +136,14 @@
     sh:path dataid:version;
     sh:minCount 1 ;
     sh:maxCount 1 ;
-    sh:nodeKind sh:IRI ;
     #TODO specify version better
-    sh:pattern "^https://databus.dbpedia.org/[a-zA-Z0-9]+/[a-zA-Z0-9]+/[a-zA-Z0-9]+/[a-zA-Z0-9]+" .
+    #sh:pattern "^https://databus.dbpedia.org/.*" .
     # all need to comply to URI path spec ?
     # user: keycloak -> jan  
     # group: maven 
     # artifact: maven + some extra
     # version: maven
+    sh:nodeKind sh:IRI .
 
 
 <#issued-violation>   

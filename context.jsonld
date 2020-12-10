@@ -15,10 +15,12 @@
 
     },
     "abstract": {
-      "@id": "dct:abstract"
+      "@id": "dct:abstract",
+      "@language": "en"
     },
     "description": {
-      "@id": "dct:description"
+      "@id": "dct:description",
+      "@language": "en"
     },
     "issued": {
       "@id": "dct:issued",
@@ -56,7 +58,7 @@
       "@id": "dataid:version",
       "@type": "@id"
     },
-    "format": {
+    "formatExtension": {
       "@id": "dataid:formatExtension",
       "@type": "xsd:string"
     },
@@ -71,8 +73,6 @@
     "signature": {
       "@id": "dataid:signature",
       "@type": "xsd:string"
-    }
-    
-    
- }
+    } 
+  }
 }
