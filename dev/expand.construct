@@ -1,0 +1,28 @@
+CONSTRUCT {
+
+# TODO from dataid:Dataset
+# server expand 	  a 					  dcat:Dataset
+
+# TODO from dct:title
+#server expand        rdfs:label              "label"@en;
+
+
+# TODO from dataid:version
+#server expand        dataid:account          <https://databus.dbpedia.org/dbpedia> ;
+#server expand        dataid:group            <https://databus.dbpedia.org/dbpedia/databus> ;
+#server expand        dataid:artifact         <https://databus.dbpedia.org/dbpedia/databus/databus-data> ;
+#server expand        dct:hasVersion          "2020.12.06"^^xsd:string ;
+ 
+
+# TODO from dct:publisher
+# server expand        dataid:associatedAgent  <https://webid.dbpedia.org/webid.ttl#this> ;
+
+
+}
+WHERE
+{
+
+
+
+
+}

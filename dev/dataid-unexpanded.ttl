@@ -26,49 +26,33 @@
 
 
 
-<https://databus.dbpedia.org/data/databus/databus-data/2020.12.06/dataid.ttl#Dataset>
+<https://databus.dbpedia.org/system/git/kuckuck/nest/eier/2020.10.10/dataid.ttl#Dataset>
         a                       dataid:Dataset ;
-        
-#server expand       rdfs:label              "label"@en;
-        
         dct:title               "Database dump of databus.dbpedia.org/repo/sparql"@en ;
         dct:abstract            "Export of the dataid metadata from the triplestore"@en ;
-
-# TODO markdown datatype
+# TODO markdown datatype ? 
         dct:description         "long desc"^^xsd:string;
         dct:issued              "2020-12-06T00:00:00Z"^^xsd:dateTime ;
         dct:license             <http://purl.oclc.org/NET/rdflicense/cc-0> ;
         dct:publisher           <https://webid.dbpedia.org/webid.ttl#this> ;        
 
-
-#server expand        dataid:account          databus:dbpedia ;
-#server expand        dataid:artifact         <https://databus.dbpedia.org/dbpedia/databus/databus-data> ;
-#server expand        dataid:group            <https://databus.dbpedia.org/dbpedia/databus> ;
-#server expand        dct:hasVersion          "2020.12.06"^^xsd:string ;
         dataid:version          <https://databus.dbpedia.org/dbpedia/databus/databus-data/2020.12.06> ;       
-# server expand        dataid:associatedAgent  <https://webid.dbpedia.org/webid.ttl#this> ;
-        
 
         dcat:distribution       <https://databus.dbpedia.org/data/databus/databus-data/2020.12.06/dataid.ttl#databus-data.nt.bz2> .
 
 
-
-
-<https://databus.dbpedia.org/data/databus/databus-data/2020.12.06/dataid.ttl#databus-data.nt.bz2>
+<https://databus.dbpedia.org/system/git/kuckuck/nest/eier/2020.10.10/dataid.ttl#databus-data.nt.bz2>
         a                        dataid:Part ;
+# TODO add filename?
         dataid:formatExtension   "nt"^^xsd:string ;
         dataid:compression       "bz2"^^xsd:string ;
-
-# TODO add filename?
-
-        dct:modified             "2020-12-05T23:01:38Z"^^xsd:dateTime ;
-        dcat:byteSize            "145726880"^^xsd:decimal ;
         dataid:sha256sum         "49b0f2dd5bb6c1dcdbbb935dbc4463218d570b4b4499da081e07a2d52c60ceab"^^xsd:string ;
         dataid:signature         "dg6U+QmLt/WJvcb2yQApkAD5vanzNE1fBxvCwB87+G/XgsOpeDm3jDAEnCA43uWyw3A+sVKXfOvYFGfh7LPrJRIcZTlaqpXZ9UU1TmunCFrtvh+TZ+T0eMwOxzWfQ7eLAdZJlV5IDMNZZwNi9u6ukiF8ciSJjpRSHWDYD11NT79Q9sKMmVFosfoo8GEa9aM43BzqNDew/aoRMW6xlvAGKO4rbmbbONroeYLSeTApakF5SwgEQ8pcjvAZf7UoNNTlOFjklUiJIoVlhaUiuatptxa/aGK499Ja/sQqordPgJfOIa+pRhAXIBYZvXRGPxpi8lwHCU8oXSzSArArWIPyMg=="^^xsd:string ;
 
-#server expand        dataid:isDistributionOf  <https://databus.dbpedia.org/data/databus/databus-data/2020.12.06/dataid.ttl#Dataset> ;
+        dct:modified             "2020-12-05T23:01:38Z"^^xsd:dateTime ;
 
-#rewritten        
+# TODO rewrite        
         dcat:downloadURL         <https://databus.dbpedia.org/data/databus/databus-data/2020.12.06/databus-data.nt.bz2> .
+        dcat:byteSize            "145726880"^^xsd:decimal ;
 
 
