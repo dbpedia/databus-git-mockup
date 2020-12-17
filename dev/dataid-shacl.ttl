@@ -138,7 +138,7 @@
     sh:minCount 1 ;
     sh:maxCount 1 ;
     #TODO specify version better
-    sh:pattern "^https://databus.dbpedia.org/[^\/]+/[^/]+/[^/]+/[^/]+$" ;
+    sh:pattern "^https://databus.dbpedia.org/[^\\/]+/[^/]+/[^/]+/[^/]+$" ;
     # all need to comply to URI path spec ?
     # user: keycloak -> jan  
     # group: maven 
