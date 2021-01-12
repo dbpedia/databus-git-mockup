@@ -1,6 +1,5 @@
 {
   "@context": {
-    "@base" : null,
     "dataid": "http://dataid.dbpedia.org/ns/core#",
     "dcv": "http://dataid.dbpedia.org/ns/cv#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
