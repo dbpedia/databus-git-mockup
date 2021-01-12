@@ -28,6 +28,7 @@
       "@type": "xsd:dateTime"
     },
     "license": {
+      "@context":{"@base": null },
       "@id": "dct:license",
       "@type": "@id"
     },
