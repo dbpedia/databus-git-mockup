@@ -24,21 +24,17 @@
 @prefix dataid-debug: <http://dataid.dbpedia.org/ns/debug.ttl#> .
 
 
-
-
 <https://databus.dbpedia.org/system/git/kuckuck/nest/eier/2020.10.10/dataid.ttl#Dataset>
         a                       dataid:Dataset ;
         dct:title               "Database dump of databus.dbpedia.org/repo/sparql"@en ;
         dct:abstract            "Export of the dataid metadata from the triplestore"@en ;
 # TODO markdown datatype ? 
-        dct:description         "long desc"^^xsd:string;
+        dct:description         "long desc"@en ;
         dct:issued              "2020-12-06T00:00:00Z"^^xsd:dateTime ;
         dct:license             <http://purl.oclc.org/NET/rdflicense/cc-0> ;
         dct:publisher           <https://webid.dbpedia.org/webid.ttl#this> ;        
-
         dataid:version          <https://databus.dbpedia.org/dbpedia/databus/databus-data/2020.12.06> ;       
-
-        dcat:distribution       <https://databus.dbpedia.org/data/databus/databus-data/2020.12.06/dataid.ttl#databus-data.nt.bz2> .
+        dcat:distribution       <https://databus.dbpedia.org/system/git/kuckuck/nest/eier/2020.10.10/dataid.ttl#databus-data.nt.bz2> .
 
 
 <https://databus.dbpedia.org/system/git/kuckuck/nest/eier/2020.10.10/dataid.ttl#databus-data.nt.bz2>
@@ -52,7 +48,6 @@
         dct:modified             "2020-12-05T23:01:38Z"^^xsd:dateTime ;
 
 # TODO rewrite        
-        dcat:downloadURL         <https://databus.dbpedia.org/data/databus/databus-data/2020.12.06/databus-data.nt.bz2> .
         dcat:byteSize            "145726880"^^xsd:decimal ;
-
+        dcat:downloadURL         <https://databus.dbpedia.org/data/databus/databus-data/2020.12.06/databus-data.nt.bz2> .
 
