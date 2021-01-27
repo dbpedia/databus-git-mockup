@@ -40,6 +40,10 @@
       "@id": "nif:anchorOf",
       "@type": "xsd:string"
     }, 
+    "lemma":  {
+      "@id": "nif:lemma",
+      "@type": "xsd:string"
+    }, 
     "beginIndex":  {
       "@id": "nif:beginIndex",
       "@type": "xsd:nonNegativeInteger"
@@ -52,18 +56,7 @@
       "@id":"nif:referenceContext",
       "@type":"@id"
     },
-   "taAnnotatorsRef":  {
-      "@id": "itsrdf:taAnnotatorsRef",
-      "@type": "@id"
-    }, 
-   "taConfidence":  {
-      "@id": "itsrdf:taConfidence",
-      "@type": "xsd:double"
-    }, 
-   "taIdentRef":  {
-      "@id": "itsrdf:taIdentRef",
-      "@type": "@id"
-    },
+ 
    
     "conformsTo":{
       "@id":"purl:conformsTo",

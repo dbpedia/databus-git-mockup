@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "nif":"http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+    "xsd":"http://www.w3.org/2001/XMLSchema#",
+    "itsrdf":"http://www.w3.org/2005/11/its/rdf#",
+    "purl":"http://purl.org/dc/terms/",
+
+   "taAnnotatorsRef":  {
+      "@id": "itsrdf:taAnnotatorsRef",
+      "@type": "@id"
+    }, 
+   "taConfidence":  {
+      "@id": "itsrdf:taConfidence",
+      "@type": "xsd:double"
+    }, 
+   "taIdentRef":  {
+      "@id": "itsrdf:taIdentRef",
+      "@type": "@id"
+    }
+  }
+}
