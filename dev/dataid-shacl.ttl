@@ -22,9 +22,7 @@
     sh:and (<#en-abstract> <#other-abstract>) ;
     sh:and (<#en-description> <#other-description>) .
     
-
 # SHARED (label, title, abstract, description)
-
 
 <#en-label>   
     a sh:PropertyShape ;
@@ -42,7 +40,6 @@
     sh:path rdfs:label  ;
     sh:minCount 1 ;
     sh:datatype rdf:langString .
-
 
 <#en-title>   
     a sh:PropertyShape ;
@@ -96,9 +93,6 @@
     sh:minCount 1 ;
     sh:datatype rdf:langString .
   
-
-
-
 ###########
 # Version
 ###########
@@ -128,7 +122,6 @@
     sh:maxCount 1 ;
     sh:class dataid:Part ;
     sh:nodeKind sh:IRI .    
-    
     
 <#version-violation>   
     a sh:PropertyShape ;
@@ -173,9 +166,7 @@
     sh:minCount 1 ; 
     sh:maxCount 1 ;
     sh:nodeKind sh:IRI .
-    
-    
-    
+      
 ##################
 # Distribution
 ##################
@@ -217,8 +208,6 @@
     sh:maxCount 1 ;
     sh:datatype xsd:dateTime .
 
-
-
 <#sha256sum-violation>   
 #   dataid:sha256sum         "49b0f2dd5bb6c1dcdbbb935dbc4463218d570b4b4499da081e07a2d52c60ceab"^^xsd:string ;
     a sh:PropertyShape ;
@@ -248,5 +237,4 @@
     sh:minCount 1 ; 
     sh:maxCount 1 ;
     sh:nodeKind sh:IRI .    
-    
-    
+ 
