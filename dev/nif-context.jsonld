@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "nif":"http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+    "xsd":"http://www.w3.org/2001/XMLSchema#",
+    "itsrdf":"http://www.w3.org/2005/11/its/rdf#",
+    "purl":"http://purl.org/dc/terms/",
+    "Phrase":{
+      "@id":"nif:Phrase",
+      "@type":"@id"
+    },
+    "OffsetBasedString":{
+      "@id":"nif:OffsetBasedString",
+      "@type":"@id"
+    },
+    "EntityOccurrence":{
+      "@id":"nif:EntityOccurrence",
+      "@type":"@id"
+    },
+    "ContextCollection":{
+      "@id":"nif:ContextCollection",
+      "@type":"@id"
+    },
+    "Context":{
+      "@id":"nif:Context",
+      "@type":"@id"
+    },
+    "hasContext":{
+      "@id":"nif:hasContext",
+      "@type":"@id"
+    },
+    "isString":{
+      "@id":"nif:isString",
+      "@type":"xsd:string"
+    },
+    "annotationUnit":{
+      "@id":"nif:annotationUnit",
+      "@type":"@id"
+    },
+    "anchorOf":  {
+      "@id": "nif:anchorOf",
+      "@type": "xsd:string"
+    }, 
+    "beginIndex":  {
+      "@id": "nif:beginIndex",
+      "@type": "xsd:nonNegativeInteger"
+    }, 
+   "endIndex":  {
+      "@id": "nif:endIndex",
+      "@type": "xsd:nonNegativeInteger"
+    }, 
+     "referenceContext":{
+      "@id":"nif:referenceContext",
+      "@type":"@id"
+    },
+   "taAnnotatorsRef":  {
+      "@id": "itsrdf:taAnnotatorsRef",
+      "@type": "@id"
+    }, 
+   "taConfidence":  {
+      "@id": "itsrdf:taConfidence",
+      "@type": "xsd:double"
+    }, 
+   "taIdentRef":  {
+      "@id": "itsrdf:taIdentRef",
+      "@type": "@id"
+    },
+   
+    "conformsTo":{
+      "@id":"purl:conformsTo",
+      "@type":"@id"
+    }   
+  }
+}
