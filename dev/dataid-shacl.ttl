@@ -106,8 +106,6 @@
     sh:and (<#en-title> <#any-title>) ;
     sh:and (<#en-abstract> <#any-abstract>) ;
     sh:and (<#en-description> <#any-description>) ;
-    # sh:property <#abstract-violation> ;
-    sh:property <#description-violation> ;    
     sh:property <#issued-violation> ;
     sh:property <#version-violation> ;
     sh:property <#distribution-violation> .
