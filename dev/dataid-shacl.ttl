@@ -106,7 +106,7 @@
     sh:and (<#en-title> <#any-title>) ;
     sh:and (<#en-abstract> <#any-abstract>) ;
     sh:and (<#en-description> <#any-description>) ;
-    sh:property <#abstract-violation> ;
+    # sh:property <#abstract-violation> ;
     sh:property <#description-violation> ;    
     sh:property <#issued-violation> ;
     sh:property <#version-violation> ;
@@ -126,7 +126,7 @@
 <#version-violation>   
     a sh:PropertyShape ;
     sh:severity sh:Violation ;
-    sh:message "Required property dataid:version MUST occur exactly once AND have URI/IRI as value AND match pattern TODO"@en ;
+    sh:message "TODO Required property dataid:version MUST occur exactly once AND have URI/IRI as value AND match pattern"@en ;
     sh:path dataid:version;
     sh:minCount 1 ;
     sh:maxCount 1 ;
@@ -223,7 +223,7 @@
 #   dataid:signature         "dg6U+QmLt/WJvcb2yQApkAD5vanzNE1fBxvCwB87+G/XgsOpeDm3jDAEnCA43uWyw3A+sVKXfOvYFGfh7LPrJRIcZTlaqpXZ9UU1TmunCFrtvh+TZ+T0eMwOxzWfQ7eLAdZJlV5IDMNZZwNi9u6ukiF8ciSJjpRSHWDYD11NT79Q9sKMmVFosfoo8GEa9aM43BzqNDew/aoRMW6xlvAGKO4rbmbbONroeYLSeTApakF5SwgEQ8pcjvAZf7UoNNTlOFjklUiJIoVlhaUiuatptxa/aGK499Ja/sQqordPgJfOIa+pRhAXIBYZvXRGPxpi8lwHCU8oXSzSArArWIPyMg=="^^xsd:string ;
     a sh:PropertyShape ;
     sh:severity sh:Violation ;
-    sh:message "Optional property dataid:signature MUST occur 0 or 1 time AND have xsd:string as value AND match pattern TODO"@en ;
+    sh:message " TODO Optional property dataid:signature MUST occur 0 or 1 time AND have xsd:string as value AND match pattern"@en ;
     sh:path dataid:signature;
     sh:maxCount 1 ;
     sh:datatype xsd:string ;
