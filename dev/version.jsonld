@@ -1,7 +1,7 @@
 {
 	"@context": "https://raw.githubusercontent.com/dbpedia/databus-git-mockup/main/dev/context.jsonld",
 	"@type": "dataid:Dataset",
-	"@id": "https://databus.dbpedia.org/system/git/kuckuck/nest/eier/2020.10.10/dataid.ttl#Dataset",
+	"@id": "https://databus.dbpedia.org/kuckuck/nest/eier/2020.10.10/dataid.ttl#Dataset",
 	
 	"title":               "Short and expressive title of the dataset" ,
     "abstract":            "One line and one sentence max explanation of the dataset." ,
