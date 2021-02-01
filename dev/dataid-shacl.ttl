@@ -117,10 +117,8 @@
     sh:message "Required property dcat:distribution MUST occur exactly once AND have URI/IRI as value"@en ;
     sh:path dcat:distribution;
     sh:minCount 1 ;
-    sh:maxCount 1 ;
-    sh:class dataid:Part ;
-    sh:nodeKind sh:IRI .    
-    
+    sh:nodeKind sh:IRI .
+
 <#version-violation>   
     a sh:PropertyShape ;
     sh:severity sh:Violation ;
