@@ -1,0 +1,13 @@
+https://databus.dbpedia.org/kuckuck/nest/eier/2020.10.10/dataid.ttl#Dataset	http://dataid.dbpedia.org/ns/core#version	http://databus.dbpedia.org/kuckuck/nest/eier/2020.10.10			
+https://databus.dbpedia.org/kuckuck/nest/eier/2020.10.10/dataid.ttl#Dataset	http://purl.org/dc/terms/issued	2020-12-06T00:00:00Z		http://www.w3.org/2001/XMLSchema#dateTime	
+https://databus.dbpedia.org/kuckuck/nest/eier/2020.10.10/dataid.ttl#Dataset	http://purl.org/dc/terms/license	http://purl.oclc.org/NET/rdflicense/cc-0			
+https://databus.dbpedia.org/kuckuck/nest/eier/2020.10.10/dataid.ttl#Dataset	http://purl.org/dc/terms/publisher	https://webid.dbpedia.org/webid.ttl#this			
+https://databus.dbpedia.org/kuckuck/nest/eier/2020.10.10/dataid.ttl#Dataset	http://purl.org/dc/terms/title	Short and expressive title of the dataset	en		
+https://databus.dbpedia.org/kuckuck/nest/eier/2020.10.10/dataid.ttl#Dataset	http://www.w3.org/ns/dcat#distribution	https://databus.dbpedia.org/system/git/kuckuck/nest/eier/2020.10.10/dataid.ttl#eier_lang=de_tag=some.ttl.gz			
+https://databus.dbpedia.org/system/git/kuckuck/nest/eier/2020.10.10/dataid.ttl#eier_lang=de_tag=some.ttl.gz	http://dataid.dbpedia.org/ns/core#compression	gz			
+https://databus.dbpedia.org/system/git/kuckuck/nest/eier/2020.10.10/dataid.ttl#eier_lang=de_tag=some.ttl.gz	http://dataid.dbpedia.org/ns/core#formatExtension	ttl			
+https://databus.dbpedia.org/system/git/kuckuck/nest/eier/2020.10.10/dataid.ttl#eier_lang=de_tag=some.ttl.gz	http://dataid.dbpedia.org/ns/core#sha256sum	1be509fb64371dcf5fc7df334964753da4f2d33ba2d86b8e10150dbf64beef27			
+https://databus.dbpedia.org/system/git/kuckuck/nest/eier/2020.10.10/dataid.ttl#eier_lang=de_tag=some.ttl.gz	http://dataid.dbpedia.org/ns/cv#lang	de						
+https://databus.dbpedia.org/system/git/kuckuck/nest/eier/2020.10.10/dataid.ttl#eier_lang=de_tag=some.ttl.gz	http://purl.org/dc/terms/modified	2020-12-05T23:01:38Z		http://www.w3.org/2001/XMLSchema#dateTime	
+https://databus.dbpedia.org/system/git/kuckuck/nest/eier/2020.10.10/dataid.ttl#eier_lang=de_tag=some.ttl.gz	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://dataid.dbpedia.org/ns/core#Part			
+https://databus.dbpedia.org/system/git/kuckuck/nest/eier/2020.10.10/dataid.ttl#eier_lang=de_tag=some.ttl.gz	http://www.w3.org/ns/dcat#byteSize	34154314
