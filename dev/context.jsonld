@@ -10,6 +10,36 @@
     "dbo": "http://dbpedia.org/ontology/",
     "foaf": "http://xmlns.com/foaf/0.1/",
     
+    "maker": {
+      "@id": "foaf:maker",
+      "@type": "@id"
+    },
+    "primaryTopic": {
+      "@id": "foaf:primaryTopic",
+      "@type": "@id"
+    },  
+    "name": {
+      "@id": "foaf:name",
+      "@language": "en"
+    },
+    "account": {
+      "@id": "foaf:account",
+      "@type": "@id"
+    },
+    "img": {
+      "@id": "foaf:img",
+      "@type": "@id"
+    },
+    "key": {
+      "@id": "cert:key"
+    },
+    "modulus": {
+      "@id": "cert:modulus"
+    },
+    "exponent": {
+      "@id": "cert:exponent"
+    },
+    
     "title": {
       "@id": "dct:title",
       "@language": "en"
