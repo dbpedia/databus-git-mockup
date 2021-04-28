@@ -42,7 +42,18 @@
     
     "title": {
       "@id": "dct:title",
-      "@language": "en"
+      "@language": "en",
+      "@type": "xsd:string"
+    },
+    "label": {
+      "@id": "rdfs:label",
+      "@language": "en",
+      "@type": "xsd:string"
+    },
+    "comment": {
+      "@id": "rdfs:comment",
+      "@language": "en",
+      "@type": "xsd:string"
     },
     "abstract": {
       "@id": "dct:abstract",
@@ -85,10 +96,22 @@
       "@type": "xsd:decimal"
     },
     
+    "group": {
+      "@id": "dataid:group",
+      "@type": "@id"
+    },
+    "artifact": {
+      "@id": "dataid:artifact",
+      "@type": "@id"
+    },
 
     "version": {
       "@id": "dataid:version",
       "@type": "@id"
+    },
+    "hasVersion": {
+      "@id": "dct:hasVersion",
+      "@type": "xsd:string"
     },
     "formatExtension": {
       "@id": "dataid:formatExtension",
