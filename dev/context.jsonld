@@ -20,7 +20,7 @@
     },  
     "name": {
       "@id": "foaf:name",
-      "@language": "en"
+      "@type": "xsd:string"
     },
     "account": {
       "@id": "foaf:account",
@@ -42,26 +42,23 @@
     
     "title": {
       "@id": "dct:title",
-      "@language": "en",
       "@type": "xsd:string"
     },
     "label": {
       "@id": "rdfs:label",
-      "@language": "en",
       "@type": "xsd:string"
     },
     "comment": {
       "@id": "rdfs:comment",
-      "@language": "en",
       "@type": "xsd:string"
     },
     "abstract": {
       "@id": "dct:abstract",
-      "@language": "en"
+      "@type": "xsd:string"
     },
     "description": {
       "@id": "dct:description",
-      "@language": "en"
+      "@type": "xsd:string"
     },
     "issued": {
       "@id": "dct:issued",
