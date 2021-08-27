@@ -94,3 +94,4 @@ ttr:William dbo:parent ttr:John ;
 	tto:pet ttr:RexDog ;
 	tto:sex "male" ;
 	a dbo:Person .
+
