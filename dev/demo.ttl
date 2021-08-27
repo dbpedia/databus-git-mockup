@@ -1,6 +1,6 @@
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 
-_:a  foaf:name   "Tobias Schmidt" .
-_:a  foaf:position   "director" .
-_:b  foaf:name   "Peter Peterson" .
-_:b  foaf:position   "manager" .
+foaf:a  foaf:name   "Tobias Schmidt" .
+foaf:a  foaf:position   "director" .
+foaf:b  foaf:name   "Peter Peterson" .
+foaf:b  foaf:position   "manager" .
