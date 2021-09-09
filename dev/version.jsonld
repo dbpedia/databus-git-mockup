@@ -1,7 +1,7 @@
 {
 	"@context": "https://raw.githubusercontent.com/dbpedia/databus-git-mockup/main/dev/context.jsonld",
 	"@type": "dataid:Dataset",
-	"@id": "https://databus.dbpedia.org/kuckuck/nest/eier/2020.10.10/dataid.ttl#Dataset",
+	"@id": "https://databus.dbpedia.org/me/projectx/ai-input/2020.10.10/dataid.ttl#Dataset",
 	
 	"title":               "Short and expressive title of the dataset" ,
     "abstract":            "One line and one sentence max explanation of the dataset." ,
@@ -10,12 +10,12 @@
 	"license":             "http://purl.oclc.org/NET/rdflicense/cc-0" ,
 	"publisher":           "https://webid.dbpedia.org/webid.ttl#this" ,      
 
-	"version":             "http://databus.dbpedia.org/kuckuck/nest/eier/2020.10.10" ,
+	"version":             "http://databus.dbpedia.org/me/projectx/ai-input/2020.10.10" ,
 
 	"distribution": 
 	[
 		{
-			"@id": "https://databus.dbpedia.org/system/git/kuckuck/nest/eier/2020.10.10/dataid.ttl#eier_lang=de_tag=some.ttl.gz",
+			"@id": "https://databus.dbpedia.org/system/git/me/projectx/ai-input/2020.10.10/dataid.ttl#geo_lang=de_tag=some.ttl.gz",
 			"@type": "dataid:Part",
 			
 			"formatExtension": "ttl",
